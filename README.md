@@ -1,6 +1,6 @@
-# GPTeams
+# TeamsGPT
 
-This program lets you connect your Microsoft account to ChatGPT, allowing it to reply to your Teams DMs!
+TeamsGPT lets you connect your Microsoft account to ChatGPT, allowing it to reply to your Teams DMs!
 
 This is highly configurable and lets you enter userIDs to reply to, whilst it ignores all the others
 
