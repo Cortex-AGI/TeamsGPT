@@ -4,6 +4,10 @@ This program lets you connect your Microsoft account to ChatGPT, allowing it to 
 
 This is highly configurable and lets you enter userIDs to reply to, whilst it ignores all the others
 
+## How does it work?
+Using the MS Graph API, it retrieves user messages, then filters the unread ones by user ID (specified in config)<br/>
+If it matches a "target", then it sends it to the ChatGPT API, with past conversation context, and then generates+sends a response
+
 ## Requirements
 Relies on Python 3.9+
 
